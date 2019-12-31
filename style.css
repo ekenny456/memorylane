@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+html {
+  background: url("https://ipoem.files.wordpress.com/2013/07/memory-lane.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 25px;
+  margin-top: 50px;
+  text-align: center;
+  width: 875px;
+}
+
+.pic {
+  height: 350px;
+  width: 700px;
+  border-radius: 15px;
+  opacity: 0.9;
+  margin-top: 160px;
+}
+
+a {
+  color: White;
+  transition: color 500ms linear;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(51, 153, 255);
+}
+
+li {
+  list-style-type: none;
+}
+
+.second {
+  font-family: cursive;
+  font-size: 30px;
+}
